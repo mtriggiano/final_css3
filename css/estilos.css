@@ -1,7 +1,12 @@
+body {
+  background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
+}
+
 header {
   background-color: #5b7989;
-  -webkit-border-radius: 15px 15px 0px 0px;  /*safati */
-  -moz-border-radius: 15px 15px 0px 0px;   /* Firefox */
+  -webkit-border-radius: 10px 10px 0px 0px;  /*safati */
+  -moz-border-radius: 10px 10px 0px 0px;   /* Firefox */
 }
 
 header h1 {
@@ -13,4 +18,57 @@ header h1 {
 a {
   text-decoration: none;
   color: white;
+}
+
+#ImagenCentral {
+  background-color: #82c3a6;
+}
+
+#ImagenCentral img {
+  display: block;
+  margin: auto;
+}
+
+#ImagenSecundaria {
+  background-color: #d5c75f;
+  border: 1px;
+}
+
+img {
+  border: 2px;
+  box-shadow: 5px 5px  #82c3a6;
+}
+
+.Imagen1 img {
+  display: block;
+  margin: auto;
+  order: 2;
+}
+
+.Imagen1 img:hover {
+transition-duration: 1s;
+transform: rotate(10deg);
+-webkit-transform: rotate(10deg); /* Safari */
+}
+
+.Imagen2 img {
+  display: block;
+  margin: auto;
+  order: 1;
+}
+
+.Imagen2 img:hover {
+  transition-duration: 1s;
+  transform: translate(20px, -5px);
+  -webkit-transform: translate(20px, -5px); /* Safari */
+}
+
+footer {
+  background-color: #C6d5c5;
+  -webkit-border-radius: 0px 0px 10px 10px;  /*safati */
+  -moz-border-radius: 0px 0px 10px 10px;   /* Firefox */
+}
+
+table {
+
 }
