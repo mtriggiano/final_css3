@@ -9,21 +9,44 @@ header {
   -moz-border-radius: 10px 10px 0px 0px;   /* Firefox */
 }
 
+header h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+}
+
 nav {
   text-align: right;
   font-size: 1.5em;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
 }
 
-header h1 {
-  text-align: left;
-  color: white;
-  text-shadow: 2px 2px #02010a;
+ul {
+  float: left;
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  left: 50%;
+}
+
+li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+li a {
+  padding: 10px;
 }
 
 a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 1em;
 }
 
 img {
@@ -32,9 +55,16 @@ img {
   width: 100%
 }
 
+p {
+  color: #02010a;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
 #contenido {
-  width: 900px;
-  display: blocl;
+  width: 70%;
+  display: block;
   margin: auto;
 }
 
@@ -60,6 +90,8 @@ img {
 .Bloque1 {
   order: 1;
   width: 50%;
+  padding: 1%;
+  margin: 1%;
 }
 
 .Bloque1 img:hover {
@@ -73,6 +105,8 @@ img {
 .Bloque2 {
   order: 2;
   width: 50%;
+  padding: 1%;
+  margin: 1%;
 }
 
 .Bloque2 img:hover {
