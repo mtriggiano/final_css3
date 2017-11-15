@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #5b7989;
+   background-color: #5b7989;
   -webkit-border-radius: 10px 10px 0px 0px;  /*safati */
   -moz-border-radius: 10px 10px 0px 0px;   /* Firefox */
 }
@@ -29,32 +29,37 @@ a {
 img {
   border: 2px;
   box-shadow: 5px 5px  #02010a;
-  width: 80%
+  width: 100%
 }
 
 #contenido {
-  margin-right: auto;
-  margin-left: auto;
   width: 900px;
+  display: blocl;
+  margin: auto;
 }
 
 #Contenedor1 {
   background-color: #82c3a6;
-  border: 1px;
+  padding: 1%;
 }
 
 #Contenedor1 img {
   display: block;
   margin: auto;
+  width: 80%;
 }
 
 #Contenedor2 {
   background-color: #d5c75f;
   border: 1px;
+  display: flex;
+  flex-wrap: warp;
+  padding: 2%
 }
 
 .Bloque1 {
-  order: 1
+  order: 1;
+  width: 50%;
 }
 
 .Bloque1 img:hover {
@@ -66,7 +71,8 @@ img {
 }
 
 .Bloque2 {
-  order: 2
+  order: 2;
+  width: 50%;
 }
 
 .Bloque2 img:hover {
