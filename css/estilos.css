@@ -13,6 +13,7 @@ header h1 {
   text-align: center;
   color: white;
   text-shadow: 2px 2px #02010a;
+  font-size: 2em;
 }
 
 nav {
@@ -25,7 +26,7 @@ nav {
   width: 100%;
 }
 
-ul {
+header ul {
   float: left;
   list-style-type: none;
   padding: 0;
@@ -33,13 +34,13 @@ ul {
   left: 50%;
 }
 
-li {
+header li {
   float: left;
   position: relative;
   right: 50%;
 }
 
-li a {
+header li a {
   padding: 10px;
 }
 
@@ -70,7 +71,7 @@ p {
 
 #Contenedor1 {
   background-color: #82c3a6;
-  padding: 1%;
+  padding: 2%;
 }
 
 #Contenedor1 img {
@@ -84,6 +85,8 @@ p {
   border: 1px;
   display: flex;
   flex-wrap: warp;
+  flex-direction: row;
+  justify-content: center;
   padding: 2%
 }
 
@@ -104,7 +107,7 @@ p {
 
 .Bloque2 {
   order: 2;
-  width: 50%;
+  width: 43%;
   padding: 1%;
   margin: 1%;
 }
@@ -121,4 +124,44 @@ footer {
   background-color: #C6d5c5;
   -webkit-border-radius: 0px 0px 10px 10px;  /*safati */
   -moz-border-radius: 0px 0px 10px 10px;   /* Firefox */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  }
+
+footer p {
+  font-size: 1.3em;
+  text-align: left;
+  color: rgb(44, 44, 44);
+}
+
+footer h1 {
+  font-size: 1.5em;
+}
+
+.Contacto {
+  padding: 1%;
+  order: 1;
+ }
+
+ .RedesSociales {
+   order: 2;
+ }
+
+ .RedesSociales ul {
+   list-style-type: none;
+   padding: 1%;
+ }
+
+.Terminos {
+  padding: 1%;
+  order: 3;
+}
+
+.Derechos {
+  order: 4;
+  padding: 1%;
 }
